@@ -2,9 +2,11 @@ package models.services;
 
 import org.springframework.stereotype.Component;
 
-@Component
-public class MiServicio {
-    public String operacion(){
+@Component("miServicioSimple")
+public class MiServicio implements IServicio {
+
+    @Override
+    public String operacion() {
         return "ejecutando algún proceso importante...";
     }
 }
