@@ -1,7 +1,6 @@
 package controllers;
 
 import models.services.IServicio;
-import models.services.MiServicio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,4 +16,6 @@ public class IndexController {
         model.addAttribute("objeto", servicio.operacion());
         return "index";
     }
+
+
 }
