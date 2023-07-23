@@ -8,12 +8,14 @@ import java.util.List;
 
 @Component
 public class Factura {
-    @Value("${descripcion.factura}")
+    
+    @Value("${factura.descripcion}")
     private String descripcion;
 
     @Autowired
     private Cliente cliente;
 
+    @Autowired
     private List<ItemFactura> item;
 
     public String getDescripcion() {
