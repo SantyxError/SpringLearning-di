@@ -1,7 +1,4 @@
-package models.services;
-
-import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
+package com.bolsaideas.springboot.di.app.models.services;
 
 //@Component("miServicioComplejo")
 

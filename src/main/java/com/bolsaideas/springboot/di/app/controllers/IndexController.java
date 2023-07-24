@@ -1,6 +1,6 @@
-package controllers;
+package com.bolsaideas.springboot.di.app.controllers;
 
-import models.services.IServicio;
+import com.bolsaideas.springboot.di.app.models.services.IServicio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

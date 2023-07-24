@@ -1,6 +1,6 @@
-package controllers;
+package com.bolsaideas.springboot.di.app.controllers;
 
-import models.domain.Factura;
+import com.bolsaideas.springboot.di.app.models.domain.Factura;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

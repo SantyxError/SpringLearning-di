@@ -1,4 +1,4 @@
-package models.services;
+package com.bolsaideas.springboot.di.app.models.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

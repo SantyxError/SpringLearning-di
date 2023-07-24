@@ -1,4 +1,4 @@
-package models.domain;
+package com.bolsaideas.springboot.di.app.models.domain;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
